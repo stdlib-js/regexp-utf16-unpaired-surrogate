@@ -20,6 +20,8 @@ limitations under the License.
 
 # UTF-16 Unpaired Surrogate
 
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+
 > [Regular expression][mdn-regexp] to match an unpaired [UTF-16][utf-16] surrogate.
 
 <section class="installation">
@@ -124,6 +126,18 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="links">
+
+[npm-image]: http://img.shields.io/npm/v/@stdlib/regexp-utf16-unpaired-surrogate.svg
+[npm-url]: https://npmjs.org/package/@stdlib/regexp-utf16-unpaired-surrogate
+
+[test-image]: https://github.com/stdlib-js/regexp-utf16-unpaired-surrogate/actions/workflows/test.yml/badge.svg
+[test-url]: https://github.com/stdlib-js/regexp-utf16-unpaired-surrogate/actions/workflows/test.yml
+
+[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/regexp-utf16-unpaired-surrogate/main.svg
+[coverage-url]: https://codecov.io/github/stdlib-js/regexp-utf16-unpaired-surrogate?branch=main
+
+[dependencies-image]: https://img.shields.io/david/stdlib-js/regexp-utf16-unpaired-surrogate
+[dependencies-url]: https://david-dm.org/stdlib-js/regexp-utf16-unpaired-surrogate/main
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
