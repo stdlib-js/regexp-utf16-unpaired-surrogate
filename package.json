@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/regexp-utf16-unpaired-surrogate",
-  "version": "0.0.1-alpha.2",
+  "version": "0.0.1",
   "description": "Return a regular expression to match an unpaired UTF-16 surrogate.",
   "license": "Apache-2.0",
   "author": {
