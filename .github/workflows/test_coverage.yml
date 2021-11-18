@@ -59,7 +59,7 @@ jobs:
       - name: Extract coverage value and assign to output
         id: extract-coverage
         run: |
-          coverage=`cat reports/coverage/lcov-report/index.html | grep "strong" | grep -oP '\d+(?=%)' | printf %s "$(cat)" | jq -R -s -c 'split("\n")'`
+          coverage=`cat reports/coverage/lcov-report/index.html | grep "fraction" | grep -oP '\d+(?=%)' | printf %s "$(cat)" | jq -R -s -c 'split("\n")'`
           echo "::set-output name=coverage::$coverage"
       - uses: act10ns/slack@v1
         with:
