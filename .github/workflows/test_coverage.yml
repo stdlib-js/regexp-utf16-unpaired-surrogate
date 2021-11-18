@@ -51,7 +51,7 @@ jobs:
         timeout-minutes: 15
       - name: Upload coverage to Codecov
         id: upload
-        uses: codecov/codecov-action@v2
+        uses: codecov/codecov-action@v1
         with:
           directory: reports/coverage
           flags: unittests
