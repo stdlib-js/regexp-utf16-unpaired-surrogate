@@ -20,7 +20,7 @@ limitations under the License.
 
 # UTF-16 Unpaired Surrogate
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > [Regular expression][mdn-regexp] to match an unpaired [UTF-16][utf-16] surrogate.
 
@@ -105,7 +105,7 @@ bool = RE_UTF16_UNPAIRED_SURROGATE.test( 'abc' );
 
 ## See Also
 
--   [`@stdlib/regexp/utf16-surrogate-pair`][@stdlib/regexp/utf16-surrogate-pair]: return a regular expression to match a UTF-16 surrogate pair.
+-   <span class="package-name">[`@stdlib/regexp/utf16-surrogate-pair`][@stdlib/regexp/utf16-surrogate-pair]</span><span class="delimiter">: </span><span class="description">return a regular expression to match a UTF-16 surrogate pair.</span>
 
 </section>
 
@@ -156,8 +156,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/regexp-utf16-unpaired-surrogate/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/regexp-utf16-unpaired-surrogate?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/regexp-utf16-unpaired-surrogate.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/regexp-utf16-unpaired-surrogate/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
