@@ -59,7 +59,7 @@ jobs:
       - name: Extract coverage value and assign to output
         id: extract-coverage
         run: |
-          coverage=`cat reports/coverage/lcov.info | grep "function:.*\(.*\)" | cut -d ':' -f 3 | cut -d '(' -f 1 | cut -d '%' -f 1 | tr -d ' '`
+          coverage=`cat reports/coverage/lcov-report/index.html | grep "strong" | grep -oP '\d+(?=%)' | printf %s "$(cat)" | jq -R -s -c 'split("\n")'`
           echo "::set-output name=coverage::$coverage"
       - uses: act10ns/slack@v1
         with:
@@ -72,4 +72,5 @@ jobs:
         with:
           url: ${{ secrets.STDLIB_WEBHOOK_URL }}
           body: '{ "event": "coverage", "owner": "stdlib-js", "repository": "${{ github.event.repository.name }}", "value": "${{  steps.extract-coverage.outputs.coverage }}" }'
+
 
