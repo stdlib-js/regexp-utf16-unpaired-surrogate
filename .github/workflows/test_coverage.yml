@@ -71,5 +71,5 @@ jobs:
         uses: joelwmale/webhook-action@master
         with:
           url: ${{ secrets.STDLIB_WEBHOOK_URL }}
-          body: '{ "event": "build", "owner": "stdlib-js", "repository": "${{ github.event.repository.name }}", "coverage": "${{  steps.extract-coverage.outputs.coverage }}" }'
+          body: '{ "event": "coverage", "owner": "stdlib-js", "repository": "${{ github.event.repository.name }}", "coverage": "${{  steps.extract-coverage.outputs.coverage }}" }'
 
