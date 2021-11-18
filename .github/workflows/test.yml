@@ -64,4 +64,4 @@ jobs:
         uses: joelwmale/webhook-action@master
         with:
           url: ${{ secrets.STDLIB_WEBHOOK_URL }}
-          body: '{ "event": "build", "owner": "stdlib-js", "repository": "${{ github.event.repository.name }}", "status": "${{ job.status }} }"'
+          body: '{ "event": "build", "owner": "stdlib-js", "repository": "${{ github.event.repository.name }}", "status": "${{ job.status }}" }'

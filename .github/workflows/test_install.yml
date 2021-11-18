@@ -27,6 +27,7 @@ on:
   workflow_run:
     workflows: ["Publish Package"]
     types: [completed]
+  workflow_dispatch:
 
 # Workflow jobs:
 jobs:
