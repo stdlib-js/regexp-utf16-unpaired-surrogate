@@ -18,7 +18,7 @@ limitations under the License.
 
 -->
 
-# UTF-16 Unpaired Surrogate
+# reUtf16UnpairedSurrogate
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
