@@ -46,6 +46,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+reUtf16UnpairedSurrogate = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-utf16-unpaired-surrogate@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/regexp-utf16-unpaired-surrogate/tags). For example,
+
+```javascript
 reUtf16UnpairedSurrogate = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-utf16-unpaired-surrogate@v0.1.0-umd/browser.js' )
 ```
 
@@ -58,7 +63,7 @@ var reUtf16UnpairedSurrogate = require( 'path/to/vendor/umd/regexp-utf16-unpaire
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-utf16-unpaired-surrogate@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-utf16-unpaired-surrogate@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -109,7 +114,7 @@ var bool = reUtf16UnpairedSurrogate.REGEXP.test( 'abc\uD800def' );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-utf16-unpaired-surrogate@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-utf16-unpaired-surrogate@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
