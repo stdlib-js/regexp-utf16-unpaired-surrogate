@@ -44,13 +44,13 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import reUtf16UnpairedSurrogate from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-utf16-unpaired-surrogate@deno/mod.js';
+import reUtf16UnpairedSurrogate from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-utf16-unpaired-surrogate@v0.1.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-utf16-unpaired-surrogate@deno/mod.js';
+import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-utf16-unpaired-surrogate@v0.1.1-deno/mod.js';
 ```
 
 #### reUtf16UnpairedSurrogate()
@@ -88,7 +88,7 @@ var bool = reUtf16UnpairedSurrogate.REGEXP.test( 'abc\uD800def' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import reUtf16UnpairedSurrogate from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-utf16-unpaired-surrogate@deno/mod.js';
+import reUtf16UnpairedSurrogate from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-utf16-unpaired-surrogate@v0.1.1-deno/mod.js';
 
 var RE_UTF16_UNPAIRED_SURROGATE = reUtf16UnpairedSurrogate();
 
