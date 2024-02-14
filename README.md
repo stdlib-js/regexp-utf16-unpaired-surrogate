@@ -44,13 +44,18 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
+import reUtf16UnpairedSurrogate from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-utf16-unpaired-surrogate@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/regexp-utf16-unpaired-surrogate/tags). For example,
+
+```javascript
 import reUtf16UnpairedSurrogate from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-utf16-unpaired-surrogate@v0.2.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-utf16-unpaired-surrogate@v0.2.0-deno/mod.js';
+import { REGEXP } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-utf16-unpaired-surrogate@deno/mod.js';
 ```
 
 #### reUtf16UnpairedSurrogate()
@@ -88,7 +93,7 @@ var bool = reUtf16UnpairedSurrogate.REGEXP.test( 'abc\uD800def' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import reUtf16UnpairedSurrogate from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-utf16-unpaired-surrogate@v0.2.0-deno/mod.js';
+import reUtf16UnpairedSurrogate from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-utf16-unpaired-surrogate@deno/mod.js';
 
 var RE_UTF16_UNPAIRED_SURROGATE = reUtf16UnpairedSurrogate();
 
