@@ -46,7 +46,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-reUtf16UnpairedSurrogate = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-utf16-unpaired-surrogate@umd/browser.js' )
+reUtf16UnpairedSurrogate = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-utf16-unpaired-surrogate@v0.2.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -58,7 +58,7 @@ var reUtf16UnpairedSurrogate = require( 'path/to/vendor/umd/regexp-utf16-unpaire
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-utf16-unpaired-surrogate@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-utf16-unpaired-surrogate@v0.2.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -109,7 +109,7 @@ var bool = reUtf16UnpairedSurrogate.REGEXP.test( 'abc\uD800def' );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-utf16-unpaired-surrogate@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-utf16-unpaired-surrogate@v0.2.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
