@@ -171,8 +171,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/regexp-utf16-unpaired-surrogate.svg
 [npm-url]: https://npmjs.org/package/@stdlib/regexp-utf16-unpaired-surrogate
 
-[test-image]: https://github.com/stdlib-js/regexp-utf16-unpaired-surrogate/actions/workflows/test.yml/badge.svg?branch=v0.2.2
-[test-url]: https://github.com/stdlib-js/regexp-utf16-unpaired-surrogate/actions/workflows/test.yml?query=branch:v0.2.2
+[test-image]: https://github.com/stdlib-js/regexp-utf16-unpaired-surrogate/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/regexp-utf16-unpaired-surrogate/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/regexp-utf16-unpaired-surrogate/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/regexp-utf16-unpaired-surrogate?branch=main
